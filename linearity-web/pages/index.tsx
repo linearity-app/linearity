@@ -11,5 +11,5 @@ export default function Home() {
 					WARNING: The web frontend for Linearity is currently a work-in-progress and should not be expected to be stable. Because of that, Please do not use this app without knowing what you are doing.
 				</Alert>
 			</Container>
-  )
+  );
 }
