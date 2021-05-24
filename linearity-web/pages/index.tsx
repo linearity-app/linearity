@@ -10,9 +10,10 @@ import * as Icon from 'react-feather';
 export default function Home() {
 	return (
 		<Container>
+			<title>Linearity</title>
 			<br></br>
 			<Alert variant="warning">
-				WARNING: The web frontend for Linearity is currently a work-in-progress and should not be expected to be stable. Because of that, Please do not use this app without knowing what you are doing.
+				<Icon.AlertTriangle size={20} /> WARNING: The web frontend for Linearity is currently a work-in-progress and should not be expected to be stable. Because of that, Please do not use this app without knowing what you are doing.
 			</Alert>
 			<h1>Introducing Linearity.</h1>
 			<h1>Great for code Collaboration.</h1>
