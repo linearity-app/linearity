@@ -5,23 +5,28 @@ import Image from 'next/image';
 import "bootswatch/dist/darkly/bootstrap.min.css";
 import { Badge, Toast, Card, Row, Col, Container, Alert } from 'react-bootstrap';
 import * as Icon from 'react-feather';
-
+// @ts-ignore
+import VerificationBadge from './components/verification_badge.tsx';
+// @ts-ignore
+import WorkInProgressWarning from './components/work_in_progress_warning.tsx';
 
 export default function Home() {
 	return (
 		<Container>
 			<title>Linearity</title>
 			<br></br>
-			<Alert variant="warning">
-				<Icon.AlertTriangle size={20} /> WARNING: The web frontend for Linearity is currently a work-in-progress and should not be expected to be stable. Because of that, Please do not use this app without knowing what you are doing.
-			</Alert>
+			<WorkInProgressWarning />
 			<h1>Introducing Linearity.</h1>
 			<h1>Great for code Collaboration.</h1>
 			<br></br>
 			<Card>
 				<Card.Body>
 					<Card.Title>
-						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" /><strong className="mr-auto">Test&nbsp;&nbsp;<Badge variant="success"><Icon.Check size={12} /></Badge></strong>
+						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" />
+						<strong className="mr-auto">Test&nbsp;&nbsp;
+							<VerificationBadge is_verified="true" />
+							<Badge variant="success"><Icon.Check size={12} /></Badge>
+						</strong>
 					</Card.Title>
 					<Card.Text>
 						Hello, World!
