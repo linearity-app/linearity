@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.0.1",
+    "bootswatch": "^5.0.1",
     "next": "10.2.2",
     "react": "17.0.2",
     "react-bootstrap": "^1.6.0",

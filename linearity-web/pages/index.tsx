@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/dark_mode.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootswatch/dist/darkly/bootstrap.min.css";
 import { Container, Alert } from 'react-bootstrap';
 
 export default function Home() {
