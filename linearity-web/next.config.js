@@ -1,4 +1,0 @@
-module.exports = {
-	assetPrefix: '',
-	basePath: ''
-}
