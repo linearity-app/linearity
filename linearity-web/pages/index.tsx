@@ -25,7 +25,6 @@ export default function Home() {
 						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" />
 						<strong className="mr-auto">Test&nbsp;&nbsp;
 							<VerificationBadge is_verified="true" />
-							<Badge variant="success"><Icon.Check size={12} /></Badge>
 						</strong>
 					</Card.Title>
 					<Card.Text>
