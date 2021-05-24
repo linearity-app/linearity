@@ -20,7 +20,7 @@ export default function Home() {
 			<Toast>
 				<Toast.Header>
 					<img src="/test_profile.png" className="rounded mr-2" alt="" />
-					<strong className="mr-auto">Test&nbsp;&nbsp;<Badge variant="success"><Icon.Check size={10} /></Badge></strong>
+					<strong className="mr-auto">Test&nbsp;&nbsp;<Badge variant="success"><Icon.Check size={12} /></Badge></strong>
 					<small>11 mins ago</small>
 				</Toast.Header>
 				<Toast.Body>Hello, world!</Toast.Body>
