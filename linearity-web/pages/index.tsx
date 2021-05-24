@@ -21,7 +21,7 @@ export default function Home() {
 			<Card>
 				<Card.Body>
 					<Card.Title>
-						<img src="/test_profile.png" className="rounded mr-2" alt="" /><strong className="mr-auto">Test&nbsp;&nbsp;<Badge variant="success"><Icon.Check size={12} /></Badge></strong>
+						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" /><strong className="mr-auto">Test&nbsp;&nbsp;<Badge variant="success"><Icon.Check size={12} /></Badge></strong>
 					</Card.Title>
 					<Card.Text>
 						Hello, World!
