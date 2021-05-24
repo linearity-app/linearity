@@ -40,7 +40,10 @@ export default function Home() {
 			<Card>
 				<Card.Body>
 					<Card.Title>
-						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" /><strong className="mr-auto">Test&nbsp;&nbsp;<Badge variant="success"><Icon.Check size={12} /></Badge></strong>
+						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" />
+						<strong className="mr-auto">Test&nbsp;&nbsp;
+							<Badge variant="success"><Icon.Check size={12} /></Badge>
+						</strong>
 					</Card.Title>
 					<Card.Text>
 						Hello, World!
@@ -51,7 +54,10 @@ export default function Home() {
 			<Card>
 				<Card.Body>
 					<Card.Title>
-						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" /><strong className="mr-auto">Test1337&nbsp;&nbsp;<Badge variant="danger"><Icon.X size={12} /></Badge></strong>
+						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" />
+						<strong className="mr-auto">Test1337&nbsp;&nbsp;
+							<Badge variant="danger"><Icon.X size={12} /></Badge>
+						</strong>
 					</Card.Title>
 					<Card.Text>
 						What is your password, @Test? I'm not trying to hack you, trust me.&nbsp;&nbsp;&nbsp;<Badge variant="danger"><Icon.AlertCircle size={16} />&nbsp;Potentially Unsafe message</Badge>
@@ -64,7 +70,10 @@ export default function Home() {
 			<Card>
 				<Card.Body>
 					<Card.Title>
-						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" /><strong className="mr-auto">Test&nbsp;&nbsp;<Badge variant="success"><Icon.Check size={12} /></Badge></strong>
+						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" />
+						<strong className="mr-auto">Test&nbsp;&nbsp;
+							<Badge variant="success"><Icon.Check size={12} /></Badge>
+						</strong>
 					</Card.Title>
 					<Card.Text>
 					<input style={{width: "95%"}} type="text" placeholder="type@something:/$" className="mr-sm-2"></input>&nbsp;&nbsp;<Icon.Send />
