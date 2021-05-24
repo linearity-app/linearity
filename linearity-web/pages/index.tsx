@@ -18,14 +18,16 @@ export default function Home() {
 			<h1>Introducing Linearity.</h1>
 			<h1>Great for code Collaboration.</h1>
 			<br></br>
-			<Toast>
-				<Toast.Header>
-					<img src="/test_profile.png" className="rounded mr-2" alt="" />
-					<strong className="mr-auto">Test&nbsp;&nbsp;<Badge variant="success"><Icon.Check size={12} /></Badge></strong>
-					<small>11 mins ago</small>
-				</Toast.Header>
-				<Toast.Body>Hello, world!</Toast.Body>
-			</Toast>
+			<Card>
+				<Card.Body>
+					<Card.Title>
+						<img src="/test_profile.png" className="rounded mr-2" alt="" /><strong className="mr-auto">Test&nbsp;&nbsp;<Badge variant="success"><Icon.Check size={12} /></Badge></strong>
+					</Card.Title>
+					<Card.Text>
+						Hello, World!
+					</Card.Text>
+				</Card.Body>
+			</Card>
 			<br></br>
 			<h1>Features</h1>
 			<br></br>
