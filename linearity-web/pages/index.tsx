@@ -23,7 +23,7 @@ export default function Home() {
 				<Card.Body>
 					<Card.Title>
 						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" />
-						<strong className="mr-auto">Test&nbsp;&nbsp;
+						<strong className="mr-auto">Test123&nbsp;&nbsp;
 							<VerificationBadge is_verified="true" />
 						</strong>
 					</Card.Title>

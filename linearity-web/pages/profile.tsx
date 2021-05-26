@@ -23,7 +23,7 @@ export default function Home() {
 				<Card.Body>
 					<Card.Title>
 						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" />
-						<strong className="mr-auto">Test&nbsp;&nbsp;
+						<strong className="mr-auto">Test123&nbsp;&nbsp;
 						<VerificationBadge is_verified="true" />
 						</strong>
 					</Card.Title>
@@ -39,7 +39,7 @@ export default function Home() {
 						<Card className="bg-secondary">
 							<Card.Body>
 								<Card.Title>
-									Groups owned by @Test&nbsp;&nbsp;<Icon.Users />
+									Groups owned by @Test123&nbsp;&nbsp;<Icon.Users />
 								</Card.Title>
 								<Card.Text>
 									<Row>

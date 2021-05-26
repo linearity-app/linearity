@@ -45,7 +45,7 @@ export default function Home() {
 				<Card.Body>
 					<Card.Title>
 						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" />
-						<strong className="mr-auto">Test&nbsp;&nbsp;
+						<strong className="mr-auto">Test123&nbsp;&nbsp;
 						<VerificationBadge is_verified="true" />
 						</strong>
 					</Card.Title>
@@ -64,7 +64,7 @@ export default function Home() {
 						</strong>
 					</Card.Title>
 					<Card.Text>
-						What is your password, @Test? I'm not trying to hack you, trust me.&nbsp;&nbsp;&nbsp;<Badge variant="danger"><Icon.AlertCircle size={16} />&nbsp;Potentially Unsafe message</Badge>
+						What is your password, @Test123? I'm not trying to hack you, trust me.&nbsp;&nbsp;&nbsp;<Badge variant="danger"><Icon.AlertCircle size={16} />&nbsp;Potentially Unsafe message</Badge>
 					</Card.Text>
 				</Card.Body>
 			</Card>
@@ -75,7 +75,7 @@ export default function Home() {
 				<Card.Body>
 					<Card.Title>
 						<img src="/test_profile.png" width="32" height="32" className="rounded mr-2" alt="" />
-						<strong className="mr-auto">Test&nbsp;&nbsp;
+						<strong className="mr-auto">Test123&nbsp;&nbsp;
 						<VerificationBadge is_verified="true" />
 						</strong>
 					</Card.Title>
