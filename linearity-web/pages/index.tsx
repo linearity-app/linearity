@@ -17,7 +17,7 @@ export default function Home() {
 			<br></br>
 			<WorkInProgressWarning />
 			<h1>Introducing Linearity.</h1>
-			<h1>Great for code Collaboration.</h1>
+			<h1>Great for Code Collaboration.</h1>
 			<br></br>
 			<Card>
 				<Card.Body>
