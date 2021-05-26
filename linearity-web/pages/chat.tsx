@@ -78,7 +78,7 @@ export default function Home() {
 						</strong>
 					</Card.Title>
 					<Card.Text>
-					<input style={{width: "95%"}} type="text" placeholder="type@something:/$" className="mr-sm-2"></input>&nbsp;&nbsp;<Icon.Send />
+					<input style={{width: "100%"}} type="text" placeholder="type@something:/$" className="mr-sm-2 form-control"></input>
 					</Card.Text>
 				</Card.Body>
 			</Card>
