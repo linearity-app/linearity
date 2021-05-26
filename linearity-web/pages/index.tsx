@@ -8,7 +8,7 @@ import * as Icon from 'react-feather';
 // @ts-ignore
 import VerificationBadge from './../components/verification_badge.tsx';
 // @ts-ignore
-import WorkInProgressWarning from './../work_in_progress_warning.tsx';
+import WorkInProgressWarning from './../components/work_in_progress_warning.tsx';
 
 export default function Home() {
 	return (
