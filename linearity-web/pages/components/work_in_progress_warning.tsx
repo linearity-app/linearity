@@ -11,6 +11,7 @@ class WorkInProgressWarning extends React.Component {
 		super(props);
 	}
 	render() {
+		//return (<br></br>);
 		return (
 			<Alert variant="warning">
 				<Icon.AlertTriangle size={20} /> WARNING: The web frontend for Linearity is currently a work-in-progress and should not be expected to be stable. Because of that, Please do not use this app without knowing what you are doing.

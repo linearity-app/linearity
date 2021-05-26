@@ -9,6 +9,8 @@ import * as Icon from 'react-feather';
 import VerificationBadge from './components/verification_badge.tsx';
 // @ts-ignore
 import WorkInProgressWarning from './components/work_in_progress_warning.tsx';
+// @ts-ignore
+import GroupIcon from './components/group_icon.tsx';
 
 export default function Home() {
 	return (
@@ -42,11 +44,11 @@ export default function Home() {
 								<Card.Text>
 									<Row>
 										<Col>
-										<a href="#"><img style={{border: "3px solid #555555"}} src="/test_profile.png" width="64" height="64" className="rounded mr-2" alt="" /></a>
-										<a href="#"><img style={{border: "3px solid #555555"}} src="/test_profile.png" width="64" height="64" className="rounded mr-2" alt="" /></a>
-										<a href="#"><img style={{border: "3px solid #555555"}} src="/test_profile.png" width="64" height="64" className="rounded mr-2" alt="" /></a>
-										<a href="#"><img style={{border: "3px solid #555555"}} src="/test_profile.png" width="64" height="64" className="rounded mr-2" alt="" /></a>
-										<a href="#"><img style={{border: "3px solid #555555"}} src="/test_profile.png" width="64" height="64" className="rounded mr-2" alt="" /></a>
+											<GroupIcon is_selected="false" href="#" img="/test_profile.png" />
+											<GroupIcon is_selected="false" href="#" img="/test_profile.png" />
+											<GroupIcon is_selected="false" href="#" img="/test_profile.png" />
+											<GroupIcon is_selected="false" href="#" img="/test_profile.png" />
+											<GroupIcon is_selected="false" href="#" img="/test_profile.png" />
 										</Col>
 									</Row>
 								</Card.Text>
