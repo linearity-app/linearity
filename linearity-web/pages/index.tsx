@@ -6,9 +6,9 @@ import "bootswatch/dist/darkly/bootstrap.min.css";
 import { Badge, Toast, Card, Row, Col, Container, Alert } from 'react-bootstrap';
 import * as Icon from 'react-feather';
 // @ts-ignore
-import VerificationBadge from './components/verification_badge.tsx';
+import VerificationBadge from './../components/verification_badge.tsx';
 // @ts-ignore
-import WorkInProgressWarning from './components/work_in_progress_warning.tsx';
+import WorkInProgressWarning from './../work_in_progress_warning.tsx';
 
 export default function Home() {
 	return (
