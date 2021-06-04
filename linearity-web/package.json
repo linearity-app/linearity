@@ -2,6 +2,7 @@
   "name": "linearity-web",
   "version": "0.1.0",
   "private": true,
+  "description": "A collaboration platform made by developers for developers.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

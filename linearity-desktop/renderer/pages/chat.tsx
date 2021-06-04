@@ -13,7 +13,7 @@ import WorkInProgressWarning from './../components/work_in_progress_warning.tsx'
 import GroupIcon from './../components/group_icon.tsx';
 
 
-export default function Chat() {
+export default function Home() {
 	return (
 		<Container>
 			<title>Linearity</title>

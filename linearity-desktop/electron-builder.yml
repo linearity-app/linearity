@@ -1,0 +1,12 @@
+appId: com.linearityapp.linearitydesktop
+productName: Linearity
+copyright: Copyright © 2021 Thatretrodev
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
