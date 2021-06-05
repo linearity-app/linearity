@@ -16,6 +16,7 @@
     "electron-serve": "^1.1.0",
     "electron-store": "^7.0.2",
     "react-bootstrap": "^1.6.0",
+    "react-fade-in": "^2.0.1",
     "react-feather": "^2.0.9"
   },
   "devDependencies": {
