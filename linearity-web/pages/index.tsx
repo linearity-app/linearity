@@ -16,8 +16,7 @@ export default function Home() {
 			<title>Linearity</title>
 			<br></br>
 			<WorkInProgressWarning />
-			<h1>Introducing Linearity.</h1>
-			<h1>Great for Code Collaboration.</h1>
+			<h1>Hello, World!</h1>
 			<br></br>
 			<Card>
 				<Card.Body>
