@@ -19,7 +19,7 @@ if (isProd) {
 	});
 	
 	mainWindow.removeMenu();
-
+	
 	if (isProd) {
 		await mainWindow.loadURL('app://./chat.html');
 	} else {
