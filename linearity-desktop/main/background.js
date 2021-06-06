@@ -25,7 +25,7 @@ if (isProd) {
 	} else {
 		const port = process.argv[2];
 		await mainWindow.loadURL(`http://localhost:${port}/chat`);
-		//mainWindow.webContents.openDevTools();
+		mainWindow.webContents.openDevTools();
 	}
 })();
 
