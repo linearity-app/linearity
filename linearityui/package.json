@@ -1,0 +1,14 @@
+{
+  "name": "linearityui",
+  "version": "1.0.0",
+  "description": "The CSS Framework made for Linearity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thatretrodev",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "sass": "^1.37.5"
+  }
+}
